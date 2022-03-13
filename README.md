@@ -5,9 +5,9 @@ Weekly Challenge for the Module 1
 
 ## Overview of Project
 
-Louise, a play wrighter, wanted to start a crowdfunding to get help for starting her play called "Fever". initially we have performed data analysis to help find whether there are any specific factor that will help achieving a successful crowdfunding campaing by using data over 4000 crowdfunding projects. 
+Louise, a play wrighter, wanted to start a crowdfunding campaign to get funds for starting her play called "Fever". Initially we have performed data analysis to help her find whether there are any specific factors that will help achieving a successful crowdfunding campaign by using data over 4000 crowdfunding projects. 
 
-Her play Fever could reach close to its goal in a short amount of time. Now she is interested in knowing how different campaigns fared in relation to their launch dates and their funding goals. Her aim is to look for musicals in Great Britain.
+Her play Fever could reach close to its goal in a short amount of time. Now she is interested in knowing how different campaigns fared in relation to their launch dates and their funding goals.
 
 A number of Excel methods were applied during the data analysis of crowdfunding campaign data. 
 
@@ -26,8 +26,8 @@ Briefly,
 - The data were analyzed by using pivot tables poivot line charts, line charts. 
 - Only the campaign outcomes in "Successful", "Failed", and "Cancelled" were used in the pivot table. 
 - The parent category in the pivot table was filtered to show only "theater" as the parent category. The campaign outcomes were sorted in descending order. 
-- Pivot line charts were created using the pivot table to visualize the trends in the outcomes (based on launch date and based on goals).
-- For the analysis of fuinding goals, the goal amount was categorized into ranges (see below, under "analysis of Outcomes Based on Goals") and the number of successful, failed, or cancelled campaigns were counted.
+- A Pivot line chart or a line chart were created using the pivot table to visualize the trends in the outcomes (based on launch date and based on goals).
+- For the analysis of fuinding goals, the goal amount was categorized into ranges (see below, under "analysis of Outcomes Based on Goals") and the number of successful, failed, or cancelled campaigns were counted. The percentage successful, failed, or cancelled campaigns were plotted against the range of the goal amount.
 
 Link to the spreadsheet (Kickstarter_Challenge.xlsx) is available in the repository: [Kickstarter_Challenge](Kickstarter_Challenge.xlsx)
 
@@ -35,13 +35,13 @@ Link to the spreadsheet (Kickstarter_Challenge.xlsx) is available in the reposit
 
 A brief summary of the data analyis is outlined as follows. 
 - A pivot table was created using kickstarter worksheet into a new worksheet and it was named "Theater Outcomes by Launch Date".
-- The pivot table included "Date Created Conversion in rows, outcomes in columns, and the count of outcomes as sum values. 
+- The pivot table included "Date Created Conversion" in rows, "outcomes" in columns, and the count of outcomes as sum values. 
 - The dates in the pivot table were grouped into corresponding month.
 - The Parent Category was filtered to include only "theater" parent category. 
 - Only the "Successful", "Failed", and "Cancelled" columns were included in the pivot table. 
 - The parent category in the pivot table was filtered to show only "theater" as the parent category. The campaign outcomes were sorted in descending order.
 - Campaign outcomes were sorted in descending order.
-- A pivot line chart was created by using the pivot table.
+- A pivot line chart (Figure 1) was created by using the pivot table.
 
 ![Theater Outcomes by Launch Date](Theater_Outcomes_vs_Launch.png)
 
@@ -54,7 +54,7 @@ A brief summary of the data analyis is outlined as follows.
 - Funding goal was categorized into 12 categories: Less Than 1000, 1000 to 4999, 5000 to 9999, 10000 to 14999, 15000 to 19999, 20000 to 24999, 25000 to 29999, 30000 to 34999, 35000 to 39999, 40000 to 44999, 45000 to 49999, 50000 or More. 
 - Using "COUNTIFS()" function with conditions to filter plays amd the range of funding goal, the number of successful, failed, and cancelled campaigns were populated into columns "Number Successful", "Number Failed", "Number Canceled", respectively. 
 - The total number of campaigns and the percentage successful, percentage failed, and percentage canceled were calculated using formula, and populated into respective columns.  
-- A line chart was created by using percentages for successful, failed, and cancelled campaigns in y axis and the grouped categories in X axis.
+- A line chart (Figure 2) was created by using percentages for successful, failed, and cancelled campaigns in y axis and the grouped categories in X axis.
 
 ![TheaterOutcomes by Goals](Outcomes_vs_Goals.png)
 
@@ -62,11 +62,11 @@ A brief summary of the data analyis is outlined as follows.
 
 ### Challenges and Difficulties Encountered
 
-Grouping the dates into months was a bit difficult. Otherwise the analysis flow worked smoothly. However, there may be errors that can be anticipated (selecting wrong columns, copying and pasting error for formulas) when we perform analysis manually. Autoimating this analysis can overcome these challenges in the analysis 
+Grouping the dates into months was a bit difficult at first. Otherwise the analysis flow worked smoothly. However, there may be errors that can be anticipated (selecting wrong columns, copying and pasting error for formulas) when we perform analysis manually. Autoimating this analysis can overcome these challenges in the analysis. It will also reduce the time for analyzing data. 
 
 ## Results
 
-The month that launched the most successful Kickstarter campaigns was May. However, January, June, July and October all had roughly the same number of failed campaigns launched. This can be determined by examining the points along the trend lines of the chart.
+The month that launched the most successful Kickstarter campaigns was May. However, the number of failed campaigns remained roughly the same during the months May - August and October. The number of failed campaigns during the months January - April, September, and November - December remained roughly the same with a lower number when compared to other months. In February and October, there was an increase in both successful and failed campaigns.      
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
