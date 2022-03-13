@@ -14,18 +14,27 @@ Her play Fever could reach close to its goal in a short amount of time. Now she 
 The purpose of this project was to analyze and visualize crowdfunding campaign outcomes based on their launch dates and their funding goals to understand the effect of the campain launch date on the success, failure, or cancellation outcome.
 
 ## Analysis and Challenges
+
+(Initially, new columns were added into the starting spreadsheet with data. The deadline and lauched_at date were formatted from unixtype to correct date format (dd/mm/yyyy). In addition, "category and subcategory" column was split into two columns.) 
+
 During this project, the data were analyzed using Microsoft Excel as follows.
 - Initially, the data were analyzed by using pivot tables, pivot charts
 - Extracted Year into a new column "Year" from the date in the "Date Created Conversion" column. 
 - A pivot table was created using "Date Created Conversion" in the rows and outcomes in column. The "Years" and "Parent Category" were used as filters. Only the campaign outcomes in "Successful", "Failed", and "Cancelled" were used in the pivot table. 
-- The parent category in the pivot table was filtered to show only "theatre" as the parent category. The campaign outcomes were sorted indescending order. 
-- A pivot line chart was created using the pivot table to visualize the trends in the outcomes (based on launch date and based on goals).
+- The parent category in the pivot table was filtered to show only "theater" as the parent category. The campaign outcomes were sorted indescending order. 
+- Pivot line charts were created using the pivot table to visualize the trends in the outcomes (based on launch date and based on goals).
 
 Link to the spreadsheet (Kickstarter_Challenge.xlsx) is available in the repository: [Kickstarter_Challenge](Kickstarter_Challenge.xlsx)
 
 ### Analysis of Outcomes Based on Launch Date
 
-
+- A pivot table was created using kickstarter worksheet into a new worksheet and it was named "Theater Outcomes by Launch Date".
+- The pivot table included "Date Created Conversion in rows, outcomes in columns, and the count of outcomes as sum values. 
+- Dates were grouped into corresponding month.
+- The Parent Category was filtered to include only "theater" parent category. 
+- Only the "Successful", "Failed", and "Cancelled" columns were included in the pivot table. 
+- Campaign outcomes were sorted in descending order.
+- A line pivot chart was created by using the pivot table.
 
 ### Analysis of Outcomes Based on Goals
 
