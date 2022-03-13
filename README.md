@@ -21,7 +21,7 @@ During this project, the data were analyzed using Microsoft Excel as follows.
 - The parent category in the pivot table was filtered to show only "theatre" as the parent category. The campaign outcomes were sorted indescending order. 
 - A pivot line chart was created using the pivot table to visualize the trends in the outcomes (based on launch date and based on goals).
 
-Link to the spreadsheet is found below: [Kickstarter_Challenge](Kickstarter_Challenge.xlxs)
+Link to the spreadsheet (Kickstarter_Challenge.xlsx) is available in the repository: [Kickstarter_Challenge](Kickstarter_Challenge.xlxs)
 
 ### Analysis of Outcomes Based on Launch Date
 
@@ -43,14 +43,17 @@ Based on the chart (Figure 1),
 
 2) The peak highest successful campaigns were achieved for the campaigns those were launced in May.
 
-![Figure 1. Theater Outcomes by Launch Date](Theater_Outcomes_vs_Launch.png)
+![Theater Outcomes by Launch Date](Theater_Outcomes_vs_Launch.png)
 
+### Figure 1. Theater Outcomes by Launch Date
 - What can you conclude about the Outcomes based on Goals?
 General tendancy is that the percentage of successful campaigns were gradually decreased with increase of the goal set for the crowdfunding. 
 
 It is interesting that there was a range of goal amount where the percent success rate was increased again, and then decreased.  
 
-![Figure 2. TheaterOutcomes by Goals](Outcomes_vs_Goals.png)
+![TheaterOutcomes by Goals](Outcomes_vs_Goals.png)
+
+### Figure 2.Theater Outcomes by Goals
 
 - What are some limitations of this dataset?
 
