@@ -1,2 +1,54 @@
 # Kickstarter_Challenge
 Weekly Challenge for the Module 1
+
+# Kickstarting with Excel
+
+## Overview of Project
+
+Louise, a play wrighter, wanted to start a crowdfunding to get help for starting her play called "Fever". We have performed data analysis to help find whether there are any specific factor that will help achieving a successful crowdfunding campaing by using data over 4000 crowdfunding projects. 
+
+Her play Fever could reach close to its goal in a short amount of time. Now she is interested in knowing how different campaigns fared in relation to their launch dates and their funding goals. Her aim is to look for musicals in Great Britain.
+
+### Purpose
+To analyze and visualize crowdfunding campaign outcomes based on their launch dates and their funding goals
+
+## Analysis and Challenges
+During this project, the data were analyzed using Microsoft Excel as follows.
+(1) Initially, the data were analyzed by using pivot tables, pivot charts, 
+
+(2) Extracted Year into a new column "Year" from the date in the "Date Created Conversion" column.
+A pivot table was created using "Date Created Conversion" in the rows and outcomes in column. The "Years" and "Parent Category" were used as filters. 
+Only the campaign outcomes in "Successful", "Failed", and "Cancelled" were used in the pivot table. The parent category was filtered to show only "theatre" as the parent category. The campaign outcomes were sorted indescending order. A pivot line chart was created using the pivot table to visualize the trends in the outcomes (based on launch date and based on goals).
+
+### Analysis of Outcomes Based on Launch Date
+
+![Theater Outcomes by Launch Date](Theater_Outcomes_vs_Launch.png)
+
+### Analysis of Outcomes Based on Goals
+
+![TheaterOutcomes by Goals](TOutcomes_vs_Goals.png)
+
+### Challenges and Difficulties Encountered
+
+## Results
+
+- What are two conclusions you can draw about the Outcomes based on Launch Date?
+
+Based on the chart, 
+
+1) Successful campaigns were increased over the launch dates in the first five months although there was a slight fluctuation between January and March) and then started to decline (again slight increase in October).
+
+2) The peak highest successful campaigns were achieved for the campaigns those were launced in May.
+
+- What can you conclude about the Outcomes based on Goals?
+General tendancy is that the percentage of successful campaigns were gradually decreased with increase of the goal set for the crowdfunding. 
+
+It is interesting that there was a range of goal amount where the percent success rate was increased again, and then decreased.  
+
+
+- What are some limitations of this dataset?
+
+In this analysis, we have analyzed cumulative data for all years. However, the results for individual years may have differences and these data should also be reviewed for individual years before making decisions. Therefore, it is better to perform descriptive statistics to get a better overview of the campaigns over the years from 2009 - 2017. We may need more data points as well.  
+
+- What are some other possible tables and/or graphs that we could create?
+Descriptive statistics tables, distribution plots, and box plots. 
