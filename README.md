@@ -21,7 +21,7 @@ During this project, the data were analyzed using Microsoft Excel as follows.
 - The parent category in the pivot table was filtered to show only "theatre" as the parent category. The campaign outcomes were sorted indescending order. 
 - A pivot line chart was created using the pivot table to visualize the trends in the outcomes (based on launch date and based on goals).
 
-Link to the spreadsheet (Kickstarter_Challenge.xlsx) is available in the repository: [Kickstarter_Challenge](Kickstarter_Challenge.xlxs)
+Link to the spreadsheet (Kickstarter_Challenge.xlsx) is available in the repository: [Kickstarter_Challenge](Kickstarter_Challenge.xlsx)
 
 ### Analysis of Outcomes Based on Launch Date
 
