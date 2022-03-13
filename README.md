@@ -26,7 +26,7 @@ Only the campaign outcomes in "Successful", "Failed", and "Cancelled" were used 
 
 ### Analysis of Outcomes Based on Goals
 
-![TheaterOutcomes by Goals](TOutcomes_vs_Goals.png)
+![TheaterOutcomes by Goals](Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 
