@@ -22,11 +22,11 @@ Only the campaign outcomes in "Successful", "Failed", and "Cancelled" were used 
 
 ### Analysis of Outcomes Based on Launch Date
 
-![Theater Outcomes by Launch Date](Theater_Outcomes_vs_Launch.png)
+
 
 ### Analysis of Outcomes Based on Goals
 
-![TheaterOutcomes by Goals](Outcomes_vs_Goals.png)
+
 
 ### Challenges and Difficulties Encountered
 
@@ -34,17 +34,20 @@ Only the campaign outcomes in "Successful", "Failed", and "Cancelled" were used 
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-Based on the chart, 
+Based on the chart (Figure 1), 
 
 1) Successful campaigns were increased over the launch dates in the first five months although there was a slight fluctuation between January and March) and then started to decline (again slight increase in October).
 
 2) The peak highest successful campaigns were achieved for the campaigns those were launced in May.
+
+![Figure 1. Theater Outcomes by Launch Date](Theater_Outcomes_vs_Launch.png)
 
 - What can you conclude about the Outcomes based on Goals?
 General tendancy is that the percentage of successful campaigns were gradually decreased with increase of the goal set for the crowdfunding. 
 
 It is interesting that there was a range of goal amount where the percent success rate was increased again, and then decreased.  
 
+![Figure 2. TheaterOutcomes by Goals](Outcomes_vs_Goals.png)
 
 - What are some limitations of this dataset?
 
